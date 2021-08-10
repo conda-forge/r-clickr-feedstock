@@ -1,4 +1,4 @@
-{% set version = "0.7.35" %}
+{% set version = "0.8.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clickR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clickR/clickR_{{ version }}.tar.gz
-  sha256: 55adc0537cbad7d389e94e33b4c581a043467feac1c4ee7bd993c468b0b19b45
+  sha256: 5f0866e474c699f28708ae6e16411917e53eb8b9eec0d1072492d4f658a11049
 
 build:
   merge_build_host: true  # [win]
