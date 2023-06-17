@@ -1,11 +1,11 @@
-About r-clickr
-==============
+About r-clickr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clickr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=clickR
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clickr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for assessing data quality, performing exploratory analysis, fixing data errors in numerical, factor and date variables and creating report tables from models and summaries.
 
