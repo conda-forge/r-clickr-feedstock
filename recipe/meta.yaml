@@ -1,4 +1,4 @@
-{% set version = "0.9.43" %}
+{% set version = "0.9.45" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clickR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clickR/clickR_{{ version }}.tar.gz
-  sha256: b548e516e899e3b19aff17e818239a3145ce2b629df154b3d929e1c24d250d03
+  sha256: 8aa4a6e242dc07c221b3e72a81831c3371af420a473c3743279d6ce48f8e6216
 
 build:
   number: 0
